@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <title>The Webpage of Markell Owens</title>
+    <!--stylesheets-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="/Users/markellowens/Desktop/Developing Projects/Bootstrap page/css/main.css">
+</head>
+<body>
+  <!--navbar-->
+
+  <nav class="navbar navbar-expand-lg fixed-top">
+	  <a class="navbar-brand" href="#">Home</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-4">
+
+	      <li class="nav-item">
+	        <a class="nav-link" data-value="about" href="#">About</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link " data-value="portfolio" href="#">Portfolio</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link " data-value="blog" href="#">Blog</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link " data-value="contact" href="#">Contact</a>
+	      </li>
+	    </ul>
+
+	  </div>
+</nav>
+<!--Header-->
+<header class="header">
+  <div class="overlay"></div>
+   <div class="container">
+   	  <div class="description">
+  	<h1>
+  		Hello and welcome to my website
+  		<p>Welcome to the web page so far.</p>
+  		<button class="btn btn-outline-secondary btn-lg">See more</button>
+  	</h1>
+  </div>
+   </div>
+
+</header>
+
+<!--About Me section -->
+<div class="about" id="about">
+    	<div class="container">
+	  <h1 class="text-center">About Me</h1>
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="/Users/markellowens/Desktop/Developing Projects/Bootstrap page/Images/IMG_9665.jpg" class="img-fluid">
+				<span class="text-justify">Aspiring Web Developer</span>
+			</div>
+			<div class="col-lg-8 col-md-8 col-sm-12 desc">
+
+				<h3>Markell Owens</h3>
+				<p>Aspiring web developer with a current focus on frontend development before becoming fully immersed in full stack development</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- portfolio -->
+<div class="portfolio" id="portfolio">
+    <h1 class="text-center">Portfolio</h1>
+ <div class="container">
+   <div class="row">
+     <div class="col-lg-4 col-md-4 col-sm-12">
+       <img src="/Users/markellowens/Desktop/Developing Projects/Bootstrap page/Images/github.svg" class="img-responsive"><a class="btn btn-primary" href="https://github.com/divinemarkell" role="button">Github</a>
+     </div>
+     <div class="col-lg-4 col-md-4 col-sm-12">
+        <img src="https://d3an9kf42ylj3p.cloudfront.net/uploads/2017/02/ana.png?x38402" class="img-responsive"><a class="btn btn-primary" href="https://anaconda.org/divinemarkell" role="button">Anaconda (Coming Soon)</a>
+      </div>
+     <div class="col-lg-4 col-md-4 col-sm-12">
+        <img src="/Users/markellowens/Desktop/Developing Projects/Bootstrap page/Images/codewars.svg" class="img-responsive"><a class="btn btn-primary" href="/Users/markellowens/Desktop/Developing Projects/Bootstrap page/Images/if_codewars_1586249.png" role="button">Code Wars</a>
+      </div>
+   </div>
+ </div>
+</div>
+
+<!-- Contact Form -->
+<div class="contact-form" id="contact" action="/Users/markellowens/Desktop/Developing Projects/Bootstrap page/email.php">
+    <div class="container">
+      <form>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <h1>Get in Touch</h1>
+          </div>
+          <div class="col-lg-8 col-md-8 col-sm-12 right">
+             <div class="form-group">
+                <input type="text" class="form-control form-control-lg" placeholder="Your First Name" name="first_name">
+             </div>
+             <div class="form-group">
+                <input type="text" class="form-control form-control-lg" placeholder="Your Last Name" name="last_name">
+             </div>
+             <div class="form-group">
+                <input type="email" class="form-control form-control-lg" placeholder="Your Email Address" name="email">
+             </div>
+             <div class="form-group">
+                <textarea class="form-control form-control-lg" name="comments"></textarea>
+             </div>
+             <input type="submit" class="btn btn-secondary btn-block" value="Send" name=""
+             href="http://www.freecontactform.com/email_form.php">
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+<script type="text/javascript" src="/Users/markellowens/Desktop/Developing Projects/Bootstrap page/js/jquery.min.js"></script>
+<script type="text/javascript" src="/Users/markellowens/Desktop/Developing Projects/Bootstrap page/js/main.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<footer class="footer"><div class = "container">&copy Markell Owens 2018</div></footer>
+</body>
+</html>
