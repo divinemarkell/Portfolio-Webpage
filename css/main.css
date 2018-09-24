@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body{
+	padding: 0;
+	margin: 0;
+	background:#f4f4f4;
+}
+html,h1,h2,h3,h4,h5,h6,a{
+	font-family: "Helvetica";
+}
+.navbar{
+  background:black;
+  transition: 0.2s;
+}
+.nav-link , .navbar-brand{
+	color: #E13D92;
+	cursor: pointer;
+}
+.nav-link{
+	margin-right: 1em !important;
+}
+.nav-link:hover{
+	background: #f4f4f4;
+	color: #f97300;
+
+}
+.navbar-collapse{
+ justify-content: flex-end;
+}
+.navbar-toggler{
+  background:#fff !important;
+}
+
+/*header style*/
+.header{
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+	background-image: url("/Users/markellowens/Desktop/Developing Projects/Bootstrap page/Images/blur-close-up-code-546819.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.overlay{
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(244, 244, 244, 0.79);
+}
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+
+}
+.description h1{
+	color:black;
+}
+.description p{
+	color:#666;
+	font-size: 20px;
+	width: 50%;
+	line-height: 1.5;
+}
+.description button{
+	border:1px  solid #F97300;
+	background:#E13D92;
+	color:#fff;
+}
+.about{
+	margin: 4em 0;
+	padding: 1em;
+  background-image: url("/Users/markellowens/Desktop/Developing Projects/Bootstrap page/Images/headerback.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+.about h1{
+	color:#E13D92;
+	margin: 2em;
+}
+.about img{
+	height: 75%;
+    width: 75%;
+    border-radius: 50%
+
+  }
+.about span{
+	display: block;
+	color: #000;
+	position: absolute;
+	left: 115px;
+}
+.about .desc{
+	padding: 2em;
+	border-left:4px solid #10828C;
+}
+.about .desc h3{
+	color: #10828C;
+}
+.about .desc p{
+  line-height:2;
+  color:#000;
+}
+/*Portfolio
+.portfolio {
+	margin: 4em 0;
+    position: relative;
+}
+.portfolio h1{
+	color:#F97300;
+	margin: 2em;
+}*/
+.portfolio img{
+	 height: 50%;
+	 width: 50%;
+   margin: 1em;
+   display: flex!important;
+   border-radius: 3px 3px 0 0;
+}
+/* footer */
+.footer {
+  background-color: black;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+}
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+body > .container {
+  padding: 60px 15px 0;
+}
+body {
+  margin-bottom: 60px;
+}
